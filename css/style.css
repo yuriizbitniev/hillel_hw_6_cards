@@ -1,0 +1,16 @@
+.main-card div{
+    display: inline-block;
+    width: 200px;
+    min-height: 226px;
+    background: #E0E0E0;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.main-card{
+    max-width: 660px;
+}
+
+.main-card div:nth-child(3n){
+    margin-right: 0px;
+}
